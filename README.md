@@ -40,6 +40,12 @@ L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificat
 
 ## Attacco
 
+## Reportistica
+- [] Introduzione su attivita' di Red-Team
+- [] Scope
+- [] Allegato A: installazione e preparazione ambiete
+- 
+
 -    
 
 
