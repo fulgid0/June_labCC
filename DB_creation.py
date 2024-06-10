@@ -8,11 +8,11 @@ print("Database creato correttamente")
 # Create SITE table
 conn.execute('''CREATE TABLE "SITE" (
 	"WordID"	INTEGER,
-	"Link"	TEXT NOT NULL,
+	"Link"		TEXT NOT NULL,
 	"Modulo"	TEXT,
 	"Parent"	TEXT NOT NULL,
-	"SQLJ"	INTEGER DEFAULT 0,
-	"Notes"	TEXT,
+	"SQLJ"		INTEGER DEFAULT 0,
+	"Notes"		TEXT,
 	PRIMARY KEY("WordID" AUTOINCREMENT)
 );''')
 
