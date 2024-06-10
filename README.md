@@ -7,7 +7,7 @@ Attività di Red Teaming verso un sito web (VM apposita), obiettivi (scope):
 
 
 ### Scope:
-- [ ] Set-up ambiente di lavoro;
+- [] Set-up ambiente di lavoro (da 10/06/2024 fino a );
 - [ ] Identificazione punti di accesso;
 - [ ] Fingerprinting (motivato)
 - [ ] Esecuzione dell'attacco (SQLj)
@@ -19,11 +19,11 @@ Attività di Red Teaming verso un sito web (VM apposita), obiettivi (scope):
 L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificato che il servizio e' fornito tramite VM, e che l'attacco sara' di tipo "SQL Injection", l'ambiente di lavoro sara' cosi strutturato:
 - [X] Download Kali e verica checksum
 - [X] Primo avvio della VM Kali (settaggi di default, solo RAM a 8 GB) e relativo allineamento a repository (inizio 12:17, terminato ore 12:19);
-- [ ] Setup tools "stock";
+- [X] Setup tools "stock";
   - Scelta tool tracciamento - Cherry tree
   - In browser proxy
   - Burp-suite (test di funzionamento)
-  - Download dizionario
+  - Scelta e Download dizionari
 - [ ] Scrittura codice ad hoc
   - Database
   - Modulo "Dizionario" (aka Dirb)
