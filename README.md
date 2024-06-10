@@ -18,7 +18,7 @@ Attività di Red Teaming verso un sito web (VM apposita), obiettivi (scope):
 ## Set-up ambiente di lavoro;
 L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificato che il servizio e' fornito tramite VM, e che l'attacco sara' di tipo "SQL Injection", l'ambiente di lavoro sara' cosi strutturato:
 - [X] Download Kali e verica checksum
-- [X] Primo avvio della VM Kali (settaggi di default) e relativo allineamento a repository (inizio 12:17, terminato ore 12:19);
+- [X] Primo avvio della VM Kali (settaggi di default, solo RAM a 8 GB) e relativo allineamento a repository (inizio 12:17, terminato ore 12:19);
 - [ ] Setup tools "stock";
 -   [ ] Scelta tool tracciamento
 -   [ ] Burp-suite
