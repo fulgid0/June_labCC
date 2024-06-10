@@ -3,11 +3,11 @@
 
 
 Traccia 3 - Web Exploitation
-Attività di Red Teaming verso un sito web (VM apposita), obiettivi (scope):
+Attività di Red Teaming verso un sito web (VM apposita):
 
 
 ### Scope:
-- [] Set-up ambiente di lavoro (da 10/06/2024 fino a );
+- [ ] Set-up ambiente di lavoro (da 10/06/2024 fino a );
 - [ ] Identificazione punti di accesso;
 - [ ] Fingerprinting (motivato)
 - [ ] Esecuzione dell'attacco (SQLj)
