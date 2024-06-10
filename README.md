@@ -20,14 +20,15 @@ L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificat
 - [X] Download Kali e verica checksum
 - [X] Primo avvio della VM Kali (settaggi di default, solo RAM a 8 GB) e relativo allineamento a repository (inizio 12:17, terminato ore 12:19);
 - [ ] Setup tools "stock";
--   [ ] Scelta tool tracciamento
--   [ ] Burp-suite
--   [ ] In browser proxy
--   [ ] Download dizionario
+  - Scelta tool tracciamento - Cherry tree
+  - In browser proxy
+  - Burp-suite (test di funzionamento)
+  - Download dizionario
 - [ ] Scrittura codice ad hoc
--   [ ] Database
--   [ ] Modulo "Dizionario"
--   [ ] Modulo Web-scrapping
+  - Database
+  - Modulo "Dizionario" (aka Dirb)
+  - Modulo Web-scrapping
+  - Modulo injection 
 - [ ] Creazione Macchina target
 
 ## Identificazione punti di accesso
@@ -42,9 +43,9 @@ L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificat
 ## Attacco
 
 ## Reportistica
-- [] Introduzione su attivita' di Red-Team
+- [X] Introduzione su attivita' di Red-Team
 - [] Scope
-- [] Allegato A: installazione e preparazione ambiete
+- [] Allegato A: installazione e preparazione ambiente
 - 
 
 -    
