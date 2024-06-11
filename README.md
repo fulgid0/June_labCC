@@ -26,6 +26,7 @@ L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificat
   - Scelta e Download dizionari
 - [ ] Scrittura codice ad hoc
   - Database
+  - Scanner (aka nmap)
   - Modulo "Dizionario" (aka Dirb)
   - Modulo Web-scrapping
   - Modulo injection 
