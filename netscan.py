@@ -47,3 +47,10 @@ else:
  
 print ("Il mio IP e': "+My_IP)
 ip_exception()
+
+'''INIZIO SCANSIONE DELLA RETE'''
+
+subnet_root = ".".join(subnet.split('.')[:-1])+'.' # ritorna la parte della subnet nel formato 192.168.1. in modo da poter fare il for in maniera semplice
+PING_sweep(subnet_root)
+
+
