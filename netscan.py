@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+
+import sys,os
+import socket
+import re
 import time
 
 print('Semplice Portscan in python. Inizia cercando tutte le interfaccie affacciate su una rete (esclusa quella della macchina stessa). In seguito effettua il portscan sulla macchina trovata.\n\nLimitazioni: usa solo le /24, prevede un solo host nella subnet')
@@ -7,6 +12,7 @@ print ('USAGE: python netscan.py <IP>/24')
 
 ip_model = re.compile(r'^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])/24$')
 MAX_Port = 65535
+My_IP=str(os.popen('hostname -I').read())
 
 def test_port (IP, port):
  time.sleep(1)
@@ -21,3 +27,5 @@ if not ip_model.search(subnet): #Controllo se la stringa fornita e' un valido ip
  sys.exit()
 else:
  print('CIDR corretto')
+ 
+print ("Il mio IP e': "+My_IP)
