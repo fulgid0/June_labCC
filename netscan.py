@@ -3,6 +3,8 @@
 import sys
 import socket
 
-print('Simple python portscan. First find all the interfaces on the network not associated on the running system, then do a port scan. It olny manage /24 subnets.')
+
+print('Semplice Portscan in python. Inizia cercando tutte le interfaccie affacciate su una rete (esclusa quella della macchina stessa). In seguito effettua il portscan sulla macchina trovata.\n\nLimitazioni: usa solo le /24, prevede un solo host nella subnet')
+
 
 print ('USAGE: python netscan.py <IP>')
