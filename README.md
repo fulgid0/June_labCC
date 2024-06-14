@@ -7,7 +7,7 @@ Attività di Red Teaming verso un sito web (VM apposita):
 
 
 ### Scope:
-- [ ] Set-up ambiente di lavoro (da 10/06/2024 fino a );
+- [X] Set-up ambiente di lavoro (da 10/06/2024 fino a 14/06/2024);
 - [ ] Identificazione punti di accesso;
 - [ ] Fingerprinting (motivato)
 - [ ] Esecuzione dell'attacco (SQLj)
@@ -24,19 +24,21 @@ L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificat
   - In browser proxy
   - Burp-suite (test di funzionamento)
   - Scelta e Download dizionari
-- [ ] Scrittura codice ad hoc
+- [X] Scrittura codice ad hoc
   - Database
   - Scanner (aka nmap)
-  - Modulo "Dizionario" (aka Dirb)
-  - Modulo Web-scrapping
-  - Modulo injection 
-- [ ] Creazione Macchina target
+  - Modulo "Dizionario" (aka Dirb) - NOPE
+  - Modulo Web-scrapping - NOPE
+  - Modulo injection  - NOPE
+- [X] Creazione Macchina target
+- [X] Target e macchina Red su vmnet1 (192.168.44.0/24)
 
 ## Identificazione punti di accesso
 - [ ] Avvio Wireshark;
+- [ ] Scansione
 - [ ] Bussiness logic;
-- [ ] Dizionario;
-- [ ] Web-scraper
+- [ ] Dizionario - NOPE
+- [ ] Web-scraper - NOPE
 - [ ] Eventuali altre interazioni del processo
 
 ## Fingerprinting (motivato)
@@ -47,7 +49,6 @@ L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificat
 - [X] Introduzione su attivita' di Red-Team
 - [] Scope
 - [] Allegato A: installazione e preparazione ambiente
-- 
 
 -    
 
