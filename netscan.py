@@ -15,6 +15,7 @@ ip_model = re.compile("^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(
 MAX_Port = 65535
 My_IP=str(os.popen('hostname -I').read()) #Acquisisco l'IP della macchina su cui gira il python
 exception_list = []
+exception_list.append(My_IP.split(' ')[0]) #aggiungo il mio IP come eccezione
 TARGET = ""
 open_ports = []
 
@@ -86,7 +87,7 @@ print("-PORT SCAN SU TARGET "+TARGET+"-")
 for port in range(0, MAX_Port):
     try:
      with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-      s.settimeout(1)
+      s.settimeout(0.3)
       s.connect((TARGET, port))
       open_ports.append(port)
       print ("OPEN PORT FOUND ["+str(port)+"]")
