@@ -6,14 +6,22 @@ Traccia 3 - Web Exploitation
 Attività di Red Teaming verso un sito web (VM apposita):
 
 
-### Scope:
-- [X] Set-up ambiente di lavoro (da 10/06/2024 fino a 14/06/2024);
-- [ ] Identificazione punti di accesso;
-- [ ] Fingerprinting (motivato)
-- [ ] Esecuzione dell'attacco (SQLj)
-- [ ] Estrazione credenziali
-- [ ] Stesura report
-
+## Attività da svolgere 
+1.Accesso alla pagina di login
+2.Trovare la pagina su cui fare sql injection e fornire prove
+3.Versione e linguaggio dello scripting lato server
+4.Versione del web server
+5.Defacement delle homepage tramite stored XSS
+6.Recupero versione database
+7.Recupero tipo database
+8.Recupero utenti applicativi tramite sql injection
+9.Recupero e decrittazione password utenti applicativi utilizzando risorse online
+10.Le password su db sono salted?
+11.Verifica del meccanismo di gestione delle sessioni applicative
+12.Recupero delle sessioni presenti sul sistema
+13. Eseguire il defacement di una parte del sito
+14. Recuperare le prime 20 basi dell’arma biologica Chimera a prova dell’operazione
+15. Recuperare l’antidoto Bellerofonte
 
 ## Set-up ambiente di lavoro;
 L'attivita' di red-teaming contro uno specifico servizio web. Essendo specificato che il servizio e' fornito tramite VM, e che l'attacco sara' di tipo "SQL Injection", l'ambiente di lavoro sara' cosi strutturato:
